@@ -1,0 +1,32 @@
+﻿@using SatışÖrnek.Models
+@model List<Ders>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Admin/Index.cshtml";
+}
+
+<table class="table table-bordered">
+
+        <tr>
+            <th>DersId</th>
+            <th>Ders Ad</th>
+            <th>Sil</th>
+            <th>Güncelle</th>
+            
+        </tr>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <th>@item.DersId</th>
+            <th>@item.DersAdı</th>
+            <td> <a href="/Ders/Sil/@item.DersId" class="btn btn-warning">Sil</a> </td>
+            <td><a href="/Ders/Getir/@item.DersId" class="btn btn-success">Guncelle</a> </td>
+        </tr>
+        }
+    </tbody>
+    
+
+</table>
+<a href="/Ders/Ekle" class="btn btn-primary">Yeni Ders Kaydı</a>

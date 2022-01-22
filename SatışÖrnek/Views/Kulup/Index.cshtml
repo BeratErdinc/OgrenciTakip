@@ -1,0 +1,27 @@
+﻿@using SatışÖrnek.Models
+@model List<Kulup>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Admin/Index.cshtml";
+}
+<table class="table table-bordered">
+
+    <tr>
+        <td>Kulüp Id</td>
+        <td>Kulüp Ad</td>
+        <td>Sil</td>
+        <td>Güncelle</td>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.KulupId</td>
+            <td>@item.KulupAd</td>
+            <td> <a href="/Kulup/Sil/@item.KulupId" class="btn btn-warning">Sil</a> </td>
+            <td><a href="/Kulup/KulupGetir/@item.KulupId" class="btn btn-success">Guncelle</a> </td>
+        </tr>
+    }
+</table>
+<a href="/Kulup/Ekle" class="btn btn-primary">Yeni Kulup Kaydı</a>
+

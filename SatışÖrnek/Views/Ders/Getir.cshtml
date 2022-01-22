@@ -1,0 +1,21 @@
+﻿@model SatışÖrnek.Models.Ders
+@{
+    ViewData["Title"] = "Getir";
+    Layout = "~/Admin/Index.cshtml";
+}
+
+@using(Html.BeginForm("Guncelle","Ders",method:FormMethod.Post))
+{
+
+   <div>
+        <label>DersAdı</label>
+        @Html.TextBoxFor(x=>x.DersAdı  , new{@class ="form-control"})
+
+    </div>
+    @Html.HiddenFor(x=>x.DersId)
+    <div>
+        <button class="btn btn-info">Ders Guncelle</button>
+
+    </div>
+}
+

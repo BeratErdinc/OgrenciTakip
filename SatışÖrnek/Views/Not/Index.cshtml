@@ -1,0 +1,40 @@
+﻿@using SatışÖrnek.Models
+@model List<Notlar> 
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Admin/Index.cshtml";
+}
+
+<table class="table table-bordered">
+
+    <tr>
+        <td>Not Id</td>
+        <td>Ogrenci</td>
+        <td>Ders</td>
+        <td>Sınav1</td>
+        <td>Sınav2</td>
+        <td>Sınav3</td>
+        <td>Proje</td>
+        <td>Ortalama</td>
+        <td>Sil</td>
+        <td>Güncelle</td>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>@item.NotId</td>
+    <td>@item.Ogrenci.OgrenciAd</td>
+    <td>@item.Ders.DersAdı</td>
+    <td>@item.Sınav1</td>
+    <td>@item.Sınav2</td>
+    <td>@item.Sınav3</td>
+    <td>@item.Proje</td>
+    <td>@item.Ortalama</td>
+    <td> <a href="/Not/Sil/@item.NotId" class="btn btn-warning">Sil</a> </td>
+    <td><a href="/Not/Düzenle/@item.NotId" class="btn btn-success">Guncelle</a> </td>
+
+</tr>
+    }
+</table>
+

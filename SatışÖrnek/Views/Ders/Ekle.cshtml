@@ -1,0 +1,24 @@
+﻿@model SatışÖrnek.Models.Ders
+@{
+    ViewData["Title"] = "Ekle";
+    Layout = "~/Admin/Index.cshtml";
+}
+
+<form class="form-group" method="post">
+
+    <div>
+        <label>DersAdı</label>
+        @Html.TextBoxFor(x=>x.DersAdı  , new{@class ="form-control"})
+
+    </div>
+    <div>
+        <button class="btn btn-info">Ders Ekle</button>
+
+    </div>
+
+
+
+
+
+</form>
+

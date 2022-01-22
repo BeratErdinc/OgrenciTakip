@@ -1,0 +1,38 @@
+﻿@using SatışÖrnek.Models
+@model List<Ogrenci>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Admin/Index.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <td>OgrenciAdı</td>
+        <td>Adı</td>
+        <td>Soyadı</td>
+        <td>Cinsiyet</td>
+        <td>Kulüp Adı</td>
+        <td>Sil</td>
+        <td>Güncelle</td>
+    </tr>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.OgrenciId</td>
+            <td>@item.OgrenciAd</td>
+            <td>@item.OgrenciSoyad</td>
+            <td>@item.OgrencıCınsıyet</td>
+            <td>@item.Kulup.KulupAd</td>
+            <td> <a href="/Ogrenci/Sil/@item.OgrenciId" class="btn btn-warning">Sil</a> </td>
+            <td><a href="/Ogrenci/Düzenle/@item.OgrenciId" class="btn btn-success">Guncelle</a> </td>
+        </tr>
+        }
+    </tbody>
+
+
+</table>
+<a href="~/Ogrenci/Ekle" class="btn btn-primary">Yeni Ogrenci Kaydı</a>
+
+

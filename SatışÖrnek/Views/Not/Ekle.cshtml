@@ -1,0 +1,56 @@
+﻿@model SatışÖrnek.Models.Notlar
+@{
+    ViewData["Title"] = "Ekle";
+    Layout = "~/Admin/Index.cshtml";
+}
+
+<form class="form-group" method="post">
+
+    <div>
+        <label>Ders Seçiniz</label>
+        @Html.DropDownListFor(m => m.Ders.DersId, (List<SelectListItem>)ViewBag.dgr, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <label>Ogrenci Seçiniz</label>
+        @Html.DropDownListFor(x => x.Ogrenci.OgrenciId, (List<SelectListItem>)ViewBag.dgr2, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <label>Sınav1</label>
+        @Html.TextBoxFor(x => x.Sınav1, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <label>Sınav2</label>
+        @Html.TextBoxFor(x => x.Sınav2, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <label>Sınav3</label>
+        @Html.TextBoxFor(x => x.Sınav3, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <label>Sınav3</label>
+        @Html.TextBoxFor(x => x.Proje, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <label>Ortalama</label>
+        @Html.TextBoxFor(x => x.Ortalama, new { @class = "form-control" })
+
+    </div>
+
+
+    <div>
+        <button class="btn btn-info">Oğrenci Ekle</button>
+
+    </div>
+
+
+
+
+
+</form>
+

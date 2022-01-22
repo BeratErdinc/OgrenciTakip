@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Admin/Index.cshtml";
+}
+
+
+<form class="form-group" method="post">
+
+    <div>
+        Sınav1:<input type="text" name="sayı1" id="sayı1" />
+                <br />
+
+        Sınav2:<input type="text" name="sayı2" id="sayı2" />
+                <br />
+
+        sınav3<input type="text" name="sayı3" id="sayı3" />
+                <br />
+
+        Proje<input type="text" name="proje" id="proje" />
+                <br />
+
+        <button class="btn btn-warning">Hesaplama</button>
+        <br />
+        Sonuç: @ViewBag.snc
+    </div>
+
+
+
+</form>

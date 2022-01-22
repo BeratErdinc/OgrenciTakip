@@ -1,0 +1,59 @@
+﻿@model SatışÖrnek.Models.Ogrenci
+@{
+    ViewData["Title"] = "Ekle";
+    Layout = "~/Admin/Index.cshtml";
+}
+
+<form class="form-group" method="post">
+
+    <div>
+        <label>Ogrenci Adı</label>
+        @Html.TextBoxFor(x => x.OgrenciAd, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <label>Ogrenci Soyad</label>
+        @Html.TextBoxFor(x => x.OgrenciSoyad, new { @class = "form-control" })
+
+    </div>
+    <br />
+   
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="txt_ad">Cinsiyet Seçiniz </span>
+        </div>
+        @Html.DropDownList("OgrencıCınsıyet",
+                 new List<SelectListItem>
+            {
+            new SelectListItem {
+            Text="Erkek",
+            Value="Erkek",
+
+            },
+            new SelectListItem {
+            Text="Kadın",
+            Value="Kadın",
+
+            },
+
+        }, "Cinsiyet Seçiniz..", new { @class = "form-control", aria_describedby = "txt_ad" })
+
+    </div>
+
+
+    <div>
+        <label>Ogrenci Kulup</label>
+       @Html.DropDownListFor(m => m.Kulup.KulupId, (List<SelectListItem>)ViewBag.dgr, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <button class="btn btn-info">Oğrenci Ekle</button>
+
+    </div>
+
+
+
+
+
+</form>
+

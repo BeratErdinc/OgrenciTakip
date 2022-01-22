@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SatışÖrnek
+build_property.RootNamespace = SatışÖrnek
+build_property.ProjectDir = D:\Önemli3\asp.net\SatışÖrnek\SatışÖrnek\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Önemli3\asp.net\SatışÖrnek\SatışÖrnek
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Ders/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc1xFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Ders/Getir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc1xHZXRpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Ders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Hesaplama/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVzYXBsYW1hXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Kulup/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsdXBcRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Kulup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsdXBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Kulup/KulupGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsdXBcS3VsdXBHZXRpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Not/Düzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90XETDvHplbmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Not/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90XEVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Not/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Ogrenci/Düzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxEw7x6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Ogrenci/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Ogrenci/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Önemli3/asp.net/SatışÖrnek/SatışÖrnek/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

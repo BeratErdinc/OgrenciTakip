@@ -1,0 +1,21 @@
+﻿@model SatışÖrnek.Models.Kulup
+@{
+    ViewData["Title"] = "KulupGetir";
+    Layout = "~/Admin/Index.cshtml";
+}
+
+@using(Html.BeginForm("Guncelle","Kulup",method:FormMethod.Post))
+{
+
+    <div>
+    <label>Kulup Adı</label>
+    @Html.TextBoxFor(x => x.KulupAd, new { @class = "form-control" })
+
+  </div>
+   @Html.HiddenFor(x=>x.KulupId)
+   <div>
+    <button class="btn btn-info">Kulup Ekle</button>
+
+  </div>
+}
+
